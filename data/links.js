@@ -29,9 +29,9 @@ const DASHKEY_LINKS = {
         // ========================================
         {
             name: "AI",
-            collapsible: true,        // Can be collapsed
-            collapsed: false,          // Starts expanded
-            mobileCollapsed: true,    // Mobile
+            collapsible: true,
+            collapsed: false,
+            mobileCollapsed: true,
             items: [
                 {
                     name: "ChatGPT",
@@ -66,18 +66,53 @@ const DASHKEY_LINKS = {
                     icon: "auto",
                     iconmode: "black",
                     keywords: ["xai", "elon", "musk", "ai"]
+                },
+                {
+                    name: "DigenAI",
+                    url: "https://digen.ai/en",
+                    icon: "auto",
+                    iconmode: "mono",
+                    keywords: ["ai", "generation", "creative"]
+                },
+                {
+                    name: "Arthub",
+                    url: "https://arthub.ai",
+                    icon: "auto",
+                    iconmode: "mono",
+                    keywords: ["ai", "art", "images"]
+                },
+                {
+                    name: "FlowLab",
+                    url: "https://labs.google/fx/tools/flow",
+                    icon: "auto",
+                    iconmode: "mono",
+                    keywords: ["google", "ai", "flow", "creative"]
+                },
+                {
+                    name: "Vheer",
+                    url: "https://vheer.com",
+                    icon: "auto",
+                    iconmode: "mono",
+                    keywords: ["ai", "design", "creative"]
+                },
+                {
+                    name: "FreeModel AI",
+                    url: "https://freemodel.dev/dashboard/usage",
+                    icon: "auto",
+                    iconmode: "mono",
+                    keywords: ["ai", "models", "developer"]
                 }
             ]
         },
-        
+
         // ========================================
         // Finance
         // ========================================
         {
             name: "Finance",
-            collapsible: true,        // Can be collapsed
-            collapsed: true,           // Starts collapsed (saves space)
-            mobileCollapsed: false,    // Mobile
+            collapsible: true,
+            collapsed: true,
+            mobileCollapsed: false,
             items: [
                 {
                     name: "App Sobrou",
@@ -88,14 +123,14 @@ const DASHKEY_LINKS = {
                 }
             ]
         },
-        
+
         // ========================================
         // Useful Tools
         // ========================================
         {
             name: "Tools",
-            collapsible: true,        // Can be collapsed
-            collapsed: true,          // Starts expanded
+            collapsible: true,
+            collapsed: true,
             items: [
                 {
                     name: "Gmail",
@@ -130,16 +165,61 @@ const DASHKEY_LINKS = {
                     icon: "auto",
                     iconmode: "black",
                     keywords: ["internet", "speed", "netflix"]
+                },
+                {
+                    name: "Notion",
+                    url: "https://notion.so",
+                    icon: "auto",
+                    iconmode: "mono",
+                    keywords: ["notes", "workspace", "docs", "productivity"]
                 }
             ]
         },
-        
+
+        // ========================================
+        // Design
+        // ========================================
+        {
+            name: "Design",
+            collapsible: true,
+            collapsed: true,
+            mobileCollapsed: true,
+            items: [
+                {
+                    name: "Figma",
+                    url: "https://figma.com",
+                    icon: "auto",
+                    iconmode: "mono",
+                    keywords: ["design", "ui", "ux", "prototype"]
+                }
+            ]
+        },
+
+        // ========================================
+        // Development
+        // ========================================
+        {
+            name: "Development",
+            collapsible: true,
+            collapsed: true,
+            mobileCollapsed: true,
+            items: [
+                {
+                    name: "Vercel",
+                    url: "https://vercel.com",
+                    icon: "auto",
+                    iconmode: "black",
+                    keywords: ["deployment", "hosting", "frontend", "dev"]
+                }
+            ]
+        },
+
         // ========================================
         // Example Sites
         // ========================================
         {
             name: "Examples",
-            collapsible: false,       // Cannot be collapsed (no arrow)
+            collapsible: false,
             items: [
                 {
                     name: "GitHub",
